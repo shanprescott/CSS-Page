@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+}
+
+h1 {
+  color: navy;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: navy;
+  font-family: 'Marmelad', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5E73C5;
+  font-family: 'Marmelad', sans-serif;
+}
+
+a {
+  color: #add8e6;
+  font-family: 'Marmelad', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted grey;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  font-family: 'Marmelad', sans-serif;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #dedef0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 70px;
+}
+
+.bottom-cloud{
+
+  position: absolute;
+  left: 200px;
+  bottom: 270px;
+}
+
+
+.profile {
+  margin: auto;
+  width: 40%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  margin: 90px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: navy;
+  padding: 50px 0 20px;
+}
+
+
+.me {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.Web {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.vball {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #335fab 5%, #93abc7 100%);
+  background-color: #335fab;
+  border-radius: 9px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Marmelad', sans-serif;
+  font-size: 17px;
+  padding: 16px 19px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #283966;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #93abc7 5%, #335fab 100%);
+  background-color: #93abc7;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
